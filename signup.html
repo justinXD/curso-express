@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>signUp</title>
+</head>
+<body>
+  <section class="signup">
+    <section class="signup__container">
+        <h2>Registrate Gratis</h2>
+        <div class="signup__container--form">
+            <input class="input" type="text" placeholder="nombre">
+            <input class="input" type="text" placeholder="Correo">
+            <input class="input" type="password" placeholder="contraseña">
+            <button class="button">Registrarme</button>
+            <div>
+                <button id="btnLogin">iniciar sesion</button>
+            </div>
+        </form>
+    </section>
+</section>
+<script src="./routes/signupRouter.js"></script>
+<script>
+  const btnLogin = document.getElementById('btnLogin')
+  btnLogin.addEventListener('click', (e) => {
+    e.preventDefault()
+    login('admin', 'asdfads')
+  })
+</script>
+</body>
+</html>
