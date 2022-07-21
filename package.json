@@ -1,0 +1,33 @@
+{
+  "name": "curso-express",
+  "version": "1.0.0",
+  "description": "repositorio del curso de backend con express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinXD/curso-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "bugs": {
+    "url": "https://github.com/justinXD/curso-express/issues"
+  },
+  "homepage": "https://github.com/justinXD/curso-express#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "faker": "^5.5.3"
+  }
+}
